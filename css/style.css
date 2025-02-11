@@ -1,0 +1,157 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+    padding-top: 136px;
+}
+
+header {
+    background: #372D23;
+    padding: 32px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+ul {
+    display: flex;
+    column-gap: 48px;
+
+
+
+
+}
+
+
+.active {
+    color: #ED6C30;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.inactive {
+    font-family: Inter;
+    color: #FCC21B;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.section1 {
+    height: 640px;
+    position: relative;
+}
+
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+article {
+    background-color: #FCC21B;
+    width: 762;
+    height: 208;
+    ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 3px solid #FFFFFF;
+    box-shadow: 10px 10px 4px 0px #00000080 inset;
+    border-radius: 3%;
+
+
+
+
+}
+
+h2 {
+    font-family: Inter;
+
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 76px 40px;
+    text-shadow: 6px 2px 4px 0px #372D23;
+
+}
+
+.section2 {
+    background: #FFE18A;
+    width: 1440;
+    height: 600;
+    top: 776px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.div1 {
+
+    width: 620;
+    height: 400;
+    display: flex;
+    margin: 40px;
+
+}
+
+.imagess {
+    width: 100%;
+    height: auto;
+
+}
+
+.tasteit {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 64px;
+    padding: 164px 195px;
+    position: absolute;
+}
+
+footer {
+    background: #372D23;
+    width: 1440;
+    height: 184;
+    top: 1376px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footernav1 {
+    width: 264;
+    height: 120;
+    top: 32px;
+    left: 80px;
+    padding: 32px 816x 32px 80px;
+  
+
+}
+.footernav2{width: 200;
+    height: 32;
+    top: 32px;
+    left: 1160px;
+    padding-left: 816px;
+
+    
+    }
+
+.footera {
+    color: #FCC21B;
+}
